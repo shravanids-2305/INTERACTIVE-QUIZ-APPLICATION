@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Quiz | QuizMaster</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="question.css">
+</head>
+<body>
+
+<div class="quiz-bg">
+
+  <!-- BACK BUTTON -->
+  
+
+  <div class="quiz-card fade" id="quizCard">
+
+    <div class="quiz-header">
+      <h2>QuizMaster</h2>
+      <div class="timer">⏱ <span id="time">15</span>s</div>
+    </div>
+
+    <!-- SUMMARY DOTS -->
+    <div class="summary" id="summary"></div>
+
+    <div class="quiz-content">
+      <h3 id="question">Question text</h3>
+      <div id="options" class="options"></div>
+      <p id="feedback" class="feedback"></p>
+    </div>
+
+    <div class="quiz-footer">
+      <button id="skipBtn" class="secondary-btn">Skip</button>
+      <button id="nextBtn" class="primary-btn">Next</button>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="question.js"></script>
+</body>
+</html>
